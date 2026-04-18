@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gaurav_assessment/static/css/main.adb848d3.css",
+    "main.js": "/Gaurav_assessment/static/js/main.61e6b11f.js",
+    "index.html": "/Gaurav_assessment/index.html",
+    "main.adb848d3.css.map": "/Gaurav_assessment/static/css/main.adb848d3.css.map",
+    "main.61e6b11f.js.map": "/Gaurav_assessment/static/js/main.61e6b11f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adb848d3.css",
+    "static/js/main.61e6b11f.js"
+  ]
+}
