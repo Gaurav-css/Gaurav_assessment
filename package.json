@@ -2,15 +2,22 @@
   "name": "multistep-form",
   "version": "1.0.0",
   "private": true,
+
+  "homepage": "https://gaurav-css.github.io/Gaurav_assessment",
+
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
+
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -23,6 +30,7 @@
       "last 1 safari version"
     ]
   },
+
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
