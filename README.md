@@ -83,3 +83,5 @@ src/
 - **Colors**: Edit CSS variables in `src/index.css`
 - **Steps**: Add/remove step components and update the `STEPS` array in `App.js`
 - **Countries / Qualifications**: Edit the arrays in `StepAddress.js` and `StepProfessional.js`
+
+![alt text](<Screenshot 2026-04-18 170218.png>) ![alt text](<Screenshot 2026-04-18 170233.png>) ![alt text](<Screenshot 2026-04-18 171940.png>)
