@@ -1,0 +1,108 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem 1rem 4rem;
+  background:
+    radial-gradient(ellipse 60% 40% at 80% 10%, rgba(45,91,227,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 30% at 20% 90%, rgba(26,122,84,0.05) 0%, transparent 60%),
+    var(--bg);
+}
+
+.container {
+  width: 100%;
+  max-width: 560px;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--accent-light);
+  color: var(--accent);
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.title em {
+  font-style: italic;
+  color: #000;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.formCard {
+  background: var(--surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.stepMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.75rem 1rem;
+}
+
+.stepCount {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-hint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.stepName {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.saveNote {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 1.25rem;
+  font-size: 12px;
+  color: var(--text-hint);
+}
+
+.saveDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--success);
+  display: inline-block;
+  animation: pulse 2s ease infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@media (max-width: 480px) {
+  .page { padding: 1.5rem 0.75rem 3rem; }
+}

@@ -1,0 +1,89 @@
+.card {
+  background: var(--surface2);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.section {
+  padding: 1.1rem 1.25rem;
+}
+
+.sectionTitle {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-hint);
+  margin-bottom: 0.75rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.itemLabel {
+  font-size: 11px;
+  color: var(--text-hint);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.itemValue {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.empty {
+  font-style: italic;
+  color: var(--text-hint);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.chip {
+  padding: 3px 10px;
+  border-radius: 99px;
+  background: var(--accent-light);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.experienceText {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+@media (max-width: 420px) {
+  .grid { grid-template-columns: 1fr; }
+}
